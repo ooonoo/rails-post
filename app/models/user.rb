@@ -1,4 +1,6 @@
 class User < ApplicationRecord
+  has_many :posts
+
   # 空でないことを確認する
   validates :name, presence: true
   # 空でないことを確認する,重複していないことを確認する
