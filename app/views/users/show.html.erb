@@ -1,0 +1,30 @@
+<div class="main">
+  <div class="container">
+    <div class="user-header">
+    <p>マイページ</p>
+    </div>
+    <div class="users-form">
+      <div class="form-body">
+        <table>
+          <tr>
+            <th>メールアドレス</th>
+            <td>aa</td>
+          </tr>
+          <tr>
+            <th>パスワード</th>
+            <td>bb</td>
+          </tr> 
+        </table> 
+      </div>
+    </div>
+    </div>
+    <div class="user-header">
+    <p>個人投稿</p>
+    </div>
+    <% @posts.each do |post| %>
+        <div class="post-body">
+          <p><%= post.content %></p>
+        </div>
+    <% end %>
+  </div>
+</div>

@@ -26,7 +26,7 @@
     margin: 30px auto;
 }
 
-table{
+.login-table{
     padding-bottom: 30px;
     margin: auto;
     width: 500px;
@@ -65,4 +65,12 @@ td{
     margin: auto;
     text-align: center;
     margin-top: 50px;
+}
+
+.user-header {
+    margin: auto;
+    width: 200px;
+    font-weight: bold;
+    font-size: 32px;
+    padding: 20px;
 }
