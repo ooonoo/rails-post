@@ -1,5 +1,5 @@
 class User < ApplicationRecord
-  has_many :posts
+  has_many :posts, dependent: :destroy
 
   # 空でないことを確認する
   validates :name, presence: true
